@@ -21,8 +21,13 @@ class Car {
     var numberOfSeats = 5
     var carType : CarType = .Coupe
     
+    //Designated initializer
+    init() {
+    }
     
-    init(customerChosenColor : String) {
+    //convenience initializer
+    convenience init(customerChosenColor : String) {
+        self.init()
         color = customerChosenColor
     }
 }

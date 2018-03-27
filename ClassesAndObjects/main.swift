@@ -9,11 +9,18 @@
 import Foundation
 
 //print("Hello, World!")
-let myCar = Car(customerChosenColor: "Red")
+let myCar = Car()
 
-print(myCar.color)
-print(myCar.numberOfSeats)
-print(myCar.carType)
+print("My car's color \(myCar.color)")
+print("My car's number of seats \(myCar.numberOfSeats)")
+print("My car's type \(myCar.carType)")
+
+
+let richGuysCar = Car(customerChosenColor: "Gold")
+
+print("Rich guy's car's color \(richGuysCar.color)")
+print("Rich guy's car's number of seats \(richGuysCar.numberOfSeats)")
+print("Rich guy's car's type \(richGuysCar.carType)")
 
 
 
