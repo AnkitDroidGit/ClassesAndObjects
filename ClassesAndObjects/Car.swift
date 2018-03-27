@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+class Car {
+    
+    var color = "Black"
+    
+}
