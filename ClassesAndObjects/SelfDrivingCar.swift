@@ -7,6 +7,7 @@
 //
 
 import Foundation
-class SelfDrivingCar {
+
+class SelfDrivingCar : Car {
 
 }
