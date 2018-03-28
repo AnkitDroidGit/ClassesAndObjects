@@ -34,6 +34,7 @@ myCar.drive()
 let mySelfDrivingCar = SelfDrivingCar()
 
 // Method call from super class using inheritence
+mySelfDrivingCar.destination = "Haridwar"
 mySelfDrivingCar.drive()
 
 
