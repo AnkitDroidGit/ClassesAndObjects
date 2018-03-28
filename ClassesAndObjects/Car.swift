@@ -30,4 +30,10 @@ class Car {
         self.init()
         color = customerChosenColor
     }
+    
+    // Method(s)
+    func drive() {
+        print("Car is moving)
+    }
+    
 }
