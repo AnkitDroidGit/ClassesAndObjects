@@ -10,12 +10,13 @@ import Foundation
 
 class SelfDrivingCar : Car {
     
-    var destination = "1, Infinite Loop"
+    var destination : String?
     
+    // Method overriding example
     override func drive() {
         super.drive()
-        
-        print("Diving towards " + destination)
+        destination = "Haridwar"
+        print("Driving towards " + destination!)
         
     }
 }
