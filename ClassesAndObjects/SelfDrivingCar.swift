@@ -15,8 +15,8 @@ class SelfDrivingCar : Car {
     // Method overriding example
     override func drive() {
         super.drive()
-        if destination != nil{
-            print("Driving towards " + destination!)
+        if let userSetDestination = destination {
+            print("Driving towards " + userSetDestination)
         }
     }
 }
