@@ -30,6 +30,13 @@ print("Rich guy's car's type \(richGuysCar.carType)")
 myCar.drive()
 
 
+// Start of inheritence
+let mySelfDrivingCar = SelfDrivingCar()
+
+// Method call from super class using inheritence
+mySelfDrivingCar.drive()
+
+
 
 
 
