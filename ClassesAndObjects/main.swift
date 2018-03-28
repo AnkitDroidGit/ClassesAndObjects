@@ -9,6 +9,7 @@
 import Foundation
 
 //print("Hello, World!")
+
 // Designated
 let myCar = Car()
 
@@ -26,7 +27,6 @@ print("Rich guy's car's type \(richGuysCar.carType)")
 
 
 //Calling method
-
 myCar.drive()
 
 
