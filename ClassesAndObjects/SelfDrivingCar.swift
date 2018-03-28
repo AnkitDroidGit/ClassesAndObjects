@@ -9,5 +9,13 @@
 import Foundation
 
 class SelfDrivingCar : Car {
-
+    
+    var destination = "1, Infinite Loop"
+    
+    override func drive() {
+        super.drive()
+        
+        print("Diving towards " + destination)
+        
+    }
 }
